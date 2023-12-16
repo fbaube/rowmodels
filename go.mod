@@ -3,27 +3,28 @@ module github.com/fbaube/rowmodels
 go 1.20
 
 require (
-	github.com/fbaube/dsmnd v0.0.0-20230622205413-6095fd80db31
-	github.com/fbaube/fileutils v0.0.0-20230622205530-1d7f778c2e03
-	github.com/fbaube/repoutils v0.0.0-20230622205932-7aa3d9781632
+	github.com/fbaube/dsmnd v0.0.0-20231210183414-e1afc613e0f7
+	github.com/fbaube/fileutils v0.0.0-20230904080209-d2b98b2c3ac9
+	github.com/fbaube/repoutils v0.0.0-20230904080659-aafe24b842a6
 )
 
 require (
-	github.com/fatih/color v1.15.0 // indirect
-	github.com/fbaube/ctoken v0.0.0-20230518060940-6f364ff08c9d // indirect
-	github.com/fbaube/logutils v0.0.0-20230607184837-dc04e193943f // indirect
-	github.com/fbaube/miscutils v0.0.0-20230402173202-ac4340addc77 // indirect
-	github.com/fbaube/mlog v0.0.0-20230205182808-c77321da3ff3 // indirect
-	github.com/fbaube/sqlite3 v0.0.0-20230622182711-a6140311d5d2 // indirect
-	github.com/fbaube/stringutils v0.0.0-20230622210105-a1af04c1f93d // indirect
-	github.com/fbaube/wasmutils v0.0.0-20230206184435-0359d2530836 // indirect
-	github.com/fbaube/xmlutils v0.0.0-20230518061403-2465e549e10a // indirect
-	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
+	github.com/fatih/color v1.16.0 // indirect
+	github.com/fbaube/ctoken v0.0.0-20231208083054-ae8e77cde530 // indirect
+	github.com/fbaube/logutils v0.0.0-20230623084753-053ea535035d // indirect
+	github.com/fbaube/miscutils v0.0.0-20231117113020-2270027d01bd // indirect
+	github.com/fbaube/mlog v0.0.0-20230904080411-cfac35fed413 // indirect
+	github.com/fbaube/sqlite3 v0.0.0-20230623201839-76cebbc048ba // indirect
+	github.com/fbaube/stringutils v0.0.0-20231208083612-f585d951ce32 // indirect
+	github.com/fbaube/wasmutils v0.0.0-20231209183154-e25018375bc2 // indirect
+	github.com/fbaube/xmlutils v0.0.0-20230904080817-586c01346ef2 // indirect
+	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.17 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mgutz/str v1.2.0 // indirect
-	golang.org/x/net v0.11.0 // indirect
-	golang.org/x/sys v0.9.0 // indirect
-	golang.org/x/tools v0.10.0 // indirect
+	golang.org/x/exp v0.0.0-20231214170342-aacd6d4b4611 // indirect
+	golang.org/x/net v0.19.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/tools v0.16.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
