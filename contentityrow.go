@@ -6,6 +6,7 @@ import (
 	D "github.com/fbaube/dsmnd"
 	FU "github.com/fbaube/fileutils"
 	RU "github.com/fbaube/repoutils"
+	CA "github.com/fbaube/contentanalysis"
 	// "github.com/fbaube/nurepo/db"
 )
 
@@ -108,7 +109,7 @@ type ContentityRow struct {
 	// *XU.ParsedDoctype
 	// DitaFlavor  string
 	// DitaContype string
-	*FU.PathAnalysis // NEED DETAIL
+	*CA.PathAnalysis // NEED DETAIL
 	// Contt string
 
 	// For these next two fields, instead put the refs & defs
