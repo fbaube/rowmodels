@@ -12,7 +12,7 @@ import (
 
 // TableSummary_ContentityRow summarizes the table.
 var TableSummary_ContentityRow = D.TableSummary{
-    D.BDT_CLXN, "contentity", "cnt", "Content entity"}
+    D.SCT_TABLE.DT(), "contentity", "cnt", "Content entity"}
 
 // TableDescriptor_ContentityRow specifies 11 DB columns,
 
@@ -65,19 +65,19 @@ var ColumnSpecs_ContentityRow = []D.ColumnSpec{
 		"Input batch of imported content"},
 	D.DD_RelFP,
 	D.DD_AbsFP,
-	D.ColumnSpec{D.BDT_TEXT, "descr", "Description",
+	D.ColumnSpec{D.BDT_TEXT.DT(), "descr", "Description",
 		"Content entity description"},
 	D.DD_T_Cre,
 	D.DD_T_Imp,
 	D.DD_T_Edt,
-	D.ColumnSpec{D.BDT_TEXT, "rawmt", "Markup type", "Raw markup type"},
-	D.ColumnSpec{D.BDT_TEXT, "mimtp", "MIME type", "MIME type"},
-	D.ColumnSpec{D.BDT_TEXT, "mtype", "MType", "MType"},
-	D.ColumnSpec{D.BDT_TEXT, "contt", "Content", "Entity raw content"},
-	// D.ColSpec{D.BDT_TEXT, "xmlcontype", "XML contype", "XML content type"},
-	// D.ColSpec{D.BDT_TEXT, "xmldoctype", "XML Doctype", "XML Doctype"},
-	// D.ColSpec{D.BDT_TEXT, "ditaflavor", "LwDITA flavor", "LwDITA flavor"},
-	// D.ColSpec{D.BDT_TEXT, "ditacontype", "LwDITA contype", "LwDITA cnt type"},
+	D.ColumnSpec{D.BDT_TEXT.DT(), "rawmt", "Markup type", "Raw markup type"},
+	D.ColumnSpec{D.BDT_TEXT.DT(), "mimtp", "MIME type", "MIME type"},
+	D.ColumnSpec{D.BDT_TEXT.DT(), "mtype", "MType", "MType"},
+	D.ColumnSpec{D.BDT_TEXT.DT(), "contt", "Content", "Entity raw content"},
+	// D.ColSpec{D.BDT_TEXT.DT(), "xmlcontype", "XML contype", "XML content type"},
+	// D.ColSpec{D.BDT_TEXT.DT(), "xmldoctype", "XML Doctype", "XML Doctype"},
+	// D.ColSpec{D.BDT_TEXT.DT(), "ditaflavor", "LwDITA flavor", "LwDITA flavor"},
+	// D.ColSpec{D.BDT_TEXT.DT(), "ditacontype", "LwDITA contype", "LwDITA cnt type"},
 }
 
 // ContentityRow describes (in the DB) the entity's content

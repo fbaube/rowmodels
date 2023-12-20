@@ -1,10 +1,11 @@
 module github.com/fbaube/rowmodels
 
-go 1.20
+go 1.21.5
 
 require (
-	github.com/fbaube/dsmnd v0.0.0-20231210183414-e1afc613e0f7
-	github.com/fbaube/fileutils v0.0.0-20230904080209-d2b98b2c3ac9
+	github.com/fbaube/contentanalysis v0.0.0-20231218211126-ec40dcf8f567
+	github.com/fbaube/dsmnd v0.0.0-20231220155054-af865d10e7cb
+	github.com/fbaube/fileutils v0.0.0-20231218210156-f6a37eab1eae
 	github.com/fbaube/repoutils v0.0.0-20230904080659-aafe24b842a6
 )
 
@@ -22,7 +23,7 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mgutz/str v1.2.0 // indirect
-	golang.org/x/exp v0.0.0-20231214170342-aacd6d4b4611 // indirect
+	golang.org/x/exp v0.0.0-20231219180239-dc181d75b848 // indirect
 	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/tools v0.16.1 // indirect

@@ -46,14 +46,14 @@ func (inbro *InbatchRow) PtrFields() []any { // barfs on []db.PtrFields
 //
 // .
 var ColumnSpecs_InbatchRow = []D.ColumnSpec{
-	D.ColumnSpec{D.BDT_INTG, "filct",
+	D.ColumnSpec{D.BDT_INTG.DT(), "filct",
 		"Nr. of files", "Number of files"}, // D.INTEG
 	D.DD_RelFP,
 	D.DD_AbsFP,
 	D.DD_T_Cre, // D.DATIM // THIS AND T_Edt SHOULD USE
 	// DEFAULT https://www.sqlite.org/lang_createtable.html#dfltval
 	// CURRENT_TIMESTAMP "YYYY-MM-DD HH:MM:SS"
-	D.ColumnSpec{D.BDT_TEXT, "descr",
+	D.ColumnSpec{D.BDT_TEXT.DT(), "descr",
 		"Batch descr.", "Inbatch description"}, // D.STRNG
 }
 
