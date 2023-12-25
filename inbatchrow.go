@@ -17,16 +17,19 @@ type ContentityRow struct {
 func (p *ContentityRow) String() string {
 */
 
+// RENAME THIS TO TableDescriptor_*
 // TableSummary_InbatchRow describes the table.
 var TableSummary_InbatchRow = D.TableSummary{
 	/*D.TABL*/ "TABLE", "INB", "inbatch", "Input batch of imported files"}
 
+// RENAME THIS TO TableDetails_* and
+// USE THE TABLE SUMMARY/DESCRIPTOR JUST ABOVE 
 // TableDescriptor_InbatchRow TBS and no foreign keys.
 var TableDescriptor_InbatchRow = RU.TableDescriptor{
 	"inbatch",     // Name
 	"inb",         // ShortName
 	"idx_inbatch", // IDName
-	//
+	// THIS CAN BE AUTO-GENERATED 
 	"FilCt, RelFP, AbsFP, T_Cre, Descr", // ColumnNames
 	// No foreign keys
 	ColumnSpecs_InbatchRow, // []D.ColumnSpec
