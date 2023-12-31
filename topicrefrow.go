@@ -16,7 +16,7 @@ func (p *ContentityRow) String() string {
 */
 
 // TableSummary_TopicrefRow describes the table.
-var TableSummary_TopicrefRow = D.TableSummary{/*D.TABL*/ "TABLE",
+var TableSummary_TopicrefRow = D.TableSummary{D.SCT_TABLE.DT(),
 	"trf", "topicref", "Reference from map to topic"}
 
 // TableDescriptor_TopicrefRow specifies only two foreign keys.
@@ -39,9 +39,9 @@ func (tro *TopicrefRow) PtrFields() []any { // barfs on []db.PtrFields
 // ColumnSpecs_TopicrefRow is empty, cos
 // the table contains only foreign keys.
 var ColumnSpecs_TopicrefRow = []D.ColumnSpec{
-	D.ColumnSpec{/*D.FKEY*/ "FRKEY", "idx_cnt_map", "contentity",
+	D.ColumnSpec{D.SFT_FRKEY.DT(), "idx_cnt_map", "contentity",
 		"Referencing map"},
-	D.ColumnSpec{/*D.FKEY*/ "FRKEY", "idx_cnt_tpc", "contentity",
+	D.ColumnSpec{D.SFT_FRKEY.DT(), "idx_cnt_tpc", "contentity",
 		"Referenced topic"},
 }
 

@@ -61,7 +61,7 @@ func (cro *ContentityRow) PtrFields() []any { // barfs on []db.PtrFields
 //
 // .
 var ColumnSpecs_ContentityRow = []D.ColumnSpec{
-	D.ColumnSpec{/*D.FKEY*/ "FRKEY", "idx_inbatch", "inbatch",
+	D.ColumnSpec{D.SFT_FRKEY.DT(), "idx_inbatch", "inbatch",
 		"Input batch of imported content"},
 	D.DD_RelFP,
 	D.DD_AbsFP,

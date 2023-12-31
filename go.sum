@@ -8,6 +8,8 @@ github.com/fbaube/dsmnd v0.0.0-20231218095557-5b913bb5905b h1:1P2RY99TYtHUkHehvc
 github.com/fbaube/dsmnd v0.0.0-20231218095557-5b913bb5905b/go.mod h1:7FFQTZsr7f2vA243fKLohCwszP3Xrzi/xbFkOyPF+YQ=
 github.com/fbaube/dsmnd v0.0.0-20231220155054-af865d10e7cb h1:41SkRmLEWA7cINx2pCH9o+tyfZ2F4HlO76xJGkWH8bI=
 github.com/fbaube/dsmnd v0.0.0-20231220155054-af865d10e7cb/go.mod h1:7FFQTZsr7f2vA243fKLohCwszP3Xrzi/xbFkOyPF+YQ=
+github.com/fbaube/dsmnd v0.0.0-20231221072152-35b95935ea5a h1:tdGYMkCwx/WOUgJc5XsKDie/7R7mdpgFKfOHSkM+m1M=
+github.com/fbaube/dsmnd v0.0.0-20231221072152-35b95935ea5a/go.mod h1:7FFQTZsr7f2vA243fKLohCwszP3Xrzi/xbFkOyPF+YQ=
 github.com/fbaube/fileutils v0.0.0-20231218210156-f6a37eab1eae h1:zU2TS8foMExseNqJE/vnlkoEzMzJhqsqSL8A02S2vuM=
 github.com/fbaube/fileutils v0.0.0-20231218210156-f6a37eab1eae/go.mod h1:zCfNLrBn2uhhdt6rzsNFrV/iwLcVKub1kubC+wi3Zas=
 github.com/fbaube/logutils v0.0.0-20230623084753-053ea535035d h1:Kp4zKL0YhkxgL3SQodPDKtRzdQnB0yLl337gKCncp9I=
@@ -26,6 +28,8 @@ github.com/fbaube/wasmutils v0.0.0-20231209183154-e25018375bc2 h1:c2o0/6fIdaGD9G
 github.com/fbaube/wasmutils v0.0.0-20231209183154-e25018375bc2/go.mod h1:Yv24ab7DbaTunolfMWqQVI0g8yCNFu8y5IHxLbwZ0ZE=
 github.com/fbaube/xmlutils v0.0.0-20230904080817-586c01346ef2 h1:bixXQUHTZen4D96wGZbE+ZDx2yrIAYlqPG0skSxUkdg=
 github.com/fbaube/xmlutils v0.0.0-20230904080817-586c01346ef2/go.mod h1:gsCwBzyR+nb9tdfJRL6aVTd9Fvuj/0R/tDM+seGxP8w=
+github.com/fbaube/xmlutils v0.0.0-20231225202924-8bb782501c81 h1:Vte/OxvTwrozBUmdbta5gEiS62hWthAV21y3SQxZbtM=
+github.com/fbaube/xmlutils v0.0.0-20231225202924-8bb782501c81/go.mod h1:gsCwBzyR+nb9tdfJRL6aVTd9Fvuj/0R/tDM+seGxP8w=
 github.com/gabriel-vasile/mimetype v1.4.3 h1:in2uUcidCuFcDKtdcBxlR0rJ1+fsokWf+uqxgUFjbI0=
 github.com/gabriel-vasile/mimetype v1.4.3/go.mod h1:d8uq/6HKRL6CGdk+aubisF/M5GcPfT7nKyLpA0lbSSk=
 github.com/mattn/go-colorable v0.1.13 h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA=
@@ -39,6 +43,8 @@ golang.org/x/exp v0.0.0-20231214170342-aacd6d4b4611 h1:qCEDpW1G+vcj3Y7Fy52pEM1AW
 golang.org/x/exp v0.0.0-20231214170342-aacd6d4b4611/go.mod h1:iRJReGqOEeBhDZGkGbynYwcHlctCvnjTYIamk7uXpHI=
 golang.org/x/exp v0.0.0-20231219180239-dc181d75b848 h1:+iq7lrkxmFNBM7xx+Rae2W6uyPfhPeDWD+n+JgppptE=
 golang.org/x/exp v0.0.0-20231219180239-dc181d75b848/go.mod h1:iRJReGqOEeBhDZGkGbynYwcHlctCvnjTYIamk7uXpHI=
+golang.org/x/exp v0.0.0-20231226003508-02704c960a9b h1:kLiC65FbiHWFAOu+lxwNPujcsl8VYyTYYEZnsOO1WK4=
+golang.org/x/exp v0.0.0-20231226003508-02704c960a9b/go.mod h1:iRJReGqOEeBhDZGkGbynYwcHlctCvnjTYIamk7uXpHI=
 golang.org/x/net v0.19.0 h1:zTwKpTd2XuCqf8huc7Fo2iSy+4RHPd10s4KzeTnVr1c=
 golang.org/x/net v0.19.0/go.mod h1:CfAk/cbD4CthTvqiEl8NpboMuiuOYsAr/7NOjZJtv1U=
 golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
