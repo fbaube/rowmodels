@@ -1,9 +1,9 @@
 package rowmodels
 
-import RU "github.com/fbaube/repoutils"
+import DRU "github.com/fbaube/datarepo/utils"
 
 // MmmcTableDescriptors configures the three key tables.
-var MmmcTableDescriptors = []RU.TableDescriptor{
+var MmmcTableDescriptors = []DRU.TableDescriptor{
 	TableDescriptor_InbatchRow,
 	TableDescriptor_ContentityRow,
 	TableDescriptor_TopicrefRow,

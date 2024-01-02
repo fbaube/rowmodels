@@ -5,7 +5,7 @@ import (
 
 	D "github.com/fbaube/dsmnd"
 	FU "github.com/fbaube/fileutils"
-	RU "github.com/fbaube/repoutils"
+	DRU "github.com/fbaube/datarepo/utils"
 	CA "github.com/fbaube/contentanalysis"
 	// "github.com/fbaube/nurepo/db"
 )
@@ -17,7 +17,7 @@ var TableSummary_ContentityRow = D.TableSummary{
 // TableDescriptor_ContentityRow specifies 11 DB columns,
 
 // incl primary key (assumed) and one foreign key, "inbatch".
-var TableDescriptor_ContentityRow = RU.TableDescriptor{
+var TableDescriptor_ContentityRow = DRU.TableDescriptor{
 	"contentity",     // Name
 	"cnt",            // ShortName
 	"idx_contentity", // IDName
@@ -89,7 +89,7 @@ type ContentityRow struct {
 	Idx_Inbatch    int // NOTE: Rename to FILESET? Could be multiple?
 	Descr          string
 	// Times is T_Cre, T_Imp, T_Edt string
-	RU.Times
+	DRU.Times
 	// PathProps has Raw and is // => EntityProps !!
 	// CT.TypedRaw { Raw, SU.MarkupType string };
 	// RelFP, ShortFP string;

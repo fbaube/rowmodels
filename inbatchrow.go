@@ -4,7 +4,7 @@ import (
 	"fmt"
 	D "github.com/fbaube/dsmnd"
 	FU "github.com/fbaube/fileutils"
-	RU "github.com/fbaube/repoutils"
+	DRU "github.com/fbaube/datarepo/utils"
 	// "github.com/fbaube/nurepo/db"
 )
 
@@ -25,7 +25,7 @@ var TableSummary_InbatchRow = D.TableSummary{
 // RENAME THIS TO TableDetails_* and
 // USE THE TABLE SUMMARY/DESCRIPTOR JUST ABOVE 
 // TableDescriptor_InbatchRow TBS and no foreign keys.
-var TableDescriptor_InbatchRow = RU.TableDescriptor{
+var TableDescriptor_InbatchRow = DRU.TableDescriptor{
 	"inbatch",     // Name
 	"inb",         // ShortName
 	"idx_inbatch", // IDName

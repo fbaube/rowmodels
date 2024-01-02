@@ -3,7 +3,7 @@ package rowmodels
 import (
 	"fmt"
 	D "github.com/fbaube/dsmnd"
-	RU "github.com/fbaube/repoutils"
+	DRU "github.com/fbaube/datarepo/utils"
 )
 
 /*
@@ -20,7 +20,7 @@ var TableSummary_TopicrefRow = D.TableSummary{D.SCT_TABLE.DT(),
 	"trf", "topicref", "Reference from map to topic"}
 
 // TableDescriptor_TopicrefRow specifies only two foreign keys.
-var TableDescriptor_TopicrefRow = RU.TableDescriptor{
+var TableDescriptor_TopicrefRow = DRU.TableDescriptor{
 	"topicref",     // Name
 	"trf",          // ShortName
 	"idx_topicref", // IDName
